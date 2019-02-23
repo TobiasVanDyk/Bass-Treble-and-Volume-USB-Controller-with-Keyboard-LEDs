@@ -32,6 +32,7 @@ Final.ino Download
 ### Step 5: Adding Bass and Treble Rotary Controls
 
 It is possible to replace the four pushbuttons that control the bass and treble with two rotary controls. Schematic2 gives the details and the Sketch is in Sketch2. The two pushbuttons on each control are used to give a bass boost and treble boost respectively. Sketch2.ino Download
+
 <img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Schematic2.png" width="687" height="462" />
 
 ### Step 6: Use a Sparkfun Pro Micro for a Smaller Case
