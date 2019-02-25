@@ -2,13 +2,13 @@
 
 <img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/photo6.jpg" width="550" height="335" />
 
-For more details please see the [**Intructables project**](https://www.instructables.com/id/Bass-Treble-and-Volume-USB-Controller-With-Keyboar/)
+For more details please see the [**Instructables project**](https://www.instructables.com/id/Bass-Treble-and-Volume-USB-Controller-With-Keyboar/)
 
 I have a Creative SoundBlaster Audigy in my main desktop computer and I needed a way to quickly adjust the bass and treble settings (as well as the volume) when listening to audio or video media. I have adapted the code from two sources given in the code-listing, and also in the links at the end, which makes use of an Arduino Micro by the Arduino organisation, or any other ATmega32u4, as a USB Human Interface Device by using the Nico Hood HID-Project libraries. I also use a wireless keyboard which only shows the state of the Caps-lock, Num-lock and Scroll-lock keys for a short time to increase its battery life. I therefore also included three LED's which show the status of these three keyboard functions. Because the Micro can be easily reprogrammed even after putting it into an enclosure through the USB port, you can adapt the code to suit the characteristics of your own sound device and keyboard by substituting the media identification used in the code with your own selection. There is a vast list of all the functions that you can use available at the Nico Hood HID Github website - examine the file named ConsumerAPI.h for all the other HID functions. 
 
 ### Step 1: Parts List
 
-* Arduino Micro or any other ATmega32u4 based Arduino board such as the Sparkfun Pro Micro. The Leonardo can be used but it is a very big board compared to the micro… 
+* Arduino Micro or any other ATmega32u4 based Arduino board such as the Sparkfun Pro Micro. The Leonardo can be also used but it is a very big board compared to the micro. 
 * 5 LEDs of different colour 
 * 5 x 470 ohm resistors 
 * 4 x pushbutton switches 
@@ -38,14 +38,17 @@ As mentioned this USB Volume, Bass, and Treble Control use a rotary encoder as t
 
 ### Step 5: Adding Bass and Treble Rotary Controls
 
-It is possible to replace the four pushbuttons that control the bass and treble with two rotary controls. Schematic2 gives the details and the Sketch is in Sketch2. The two pushbuttons on each control are used to give a bass boost and treble boost respectively. Source code is in Sketch2.ino.
+It is possible to replace the four pushbuttons that control the bass and treble with two rotary controls. Schematic2 gives the details and the source code is in Sketch2.ino. The two pushbuttons on each control are used to give a bass boost and treble boost respectively.
 
 <img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Schematic2.png" width="687" height="462" />
 
 ### Step 6: Use a Sparkfun Pro Micro for a Smaller Case
 
-Picture of Use a Sparkfun Pro Micro for a Smaller Case
-Picture of Use a Sparkfun Pro Micro for a Smaller Case
-You can use the smaller version of the Arduino Micro namely the Sparkfun Pro Micro to make a smaller enclosure for the Bass Treble Volume and Keyboard LED USB Controller. Photo5 and Photo6 gives the details of the build and you can use Sketch3.ino for the Pro Micro. Source code is in Sketch2.ino.
+You can use the smaller version of the Arduino Micro namely the Sparkfun Pro Micro to make a smaller enclosure for the Bass Treble Volume and Keyboard LED USB Controller. Photo5 and Photo6 gives the details of the build and you can use Sketch3.ino for the Pro Micro.
 
 <img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/photo5.jpg" width="636" height="525" />
+
+A recent addition, and even smaller MCU board that can also be used, is the **DFRobot Beetle** https://www.dfrobot.com/wiki/index.php/Beetle_SKU:DFR0282
+
+<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/beetle.jpg" width="400" height="400" />
+
