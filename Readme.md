@@ -1,4 +1,4 @@
-# Bass, Treble, and Volume USB Controller With Keyboard LEDs
+# Bass, Treble, and Volume USB Controller with Keyboard LED
 
 <img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/photo6.jpg" width="550" height="335" />
 
@@ -17,7 +17,7 @@ I have a Creative SoundBlaster Audigy in my main desktop computer and I needed a
 
 ### Construction
 
-Details are given in the photos, schematic and the Fritzing stripboard layouts. I used two smaller strip boards - one to house 4 LEDs and the four switches, and the other for a blue volume level direction indicator LED, and a larger stripboard for the micro and the rotary encoder. They are connected by a 9 way and two way ribbon cable.
+Details are given in the photos, schematic and the Fritzing stripboard layouts. I used two smaller strip boards - one to house 4 LEDs and the four switches, and the other for a blue volume level direction indicator LED, and a larger stripboard for the micro and the rotary encoder. They are connected with a 9-way ribbon cable.
 
 <img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/FinalSch.png" width="712" height="456" />
 
