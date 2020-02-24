@@ -34,15 +34,21 @@ It is possible to replace the four pushbuttons that control the bass and treble 
 
 <img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Schematic2.png" width="687" height="462" />
 
-### Use a Sparkfun Pro Micro for a Smaller Case
+### Use a Sparkfun Pro Micro and DFRobot Beetle for a Smaller Case
 
 You can use the smaller version of the Arduino Micro namely the Sparkfun Pro Micro to make a smaller enclosure for the Bass Treble Volume and Keyboard LED USB Controller. Photo5 and Photo6 gives the details of the build and you can use Sketch3.ino for the Pro Micro.
 
 <img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/photo5.jpg" width="636" height="525" />
 
-A recent addition, and even smaller MCU board that can also be used, is the **DFRobot Beetle** https://www.dfrobot.com/wiki/index.php/Beetle_SKU:DFR0282
+A recent addition, and even smaller MCU board that can also be used, is the **DFRobot Beetle** https://www.dfrobot.com/wiki/index.php/Beetle_SKU:DFR0282. You can use Beetle.ino for the Arduino sketch.
 
 <img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/beetle.jpg" width="400" height="400" />
+
+<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Beetle2.jpg" width="1236" height="670" />
+
+<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Beetle3.jpg" width="1100" height="1210" />
+
+<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Beetle2.jpg" width="1100" height="921" />
 
 ### Other Links
 
