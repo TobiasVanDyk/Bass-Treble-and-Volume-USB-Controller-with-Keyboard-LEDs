@@ -48,7 +48,7 @@ A recent addition, and even smaller MCU board that can also be used, is the **DF
 
 <img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Beetle3.jpg" width="1100" height="1210" />
 
-<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Beetle2.jpg" width="1100" height="921" />
+<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Beetle4.jpg" width="1100" height="921" />
 
 ### Other Links
 
