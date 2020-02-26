@@ -42,7 +42,7 @@ You can use the smaller version of the Arduino Micro namely the Sparkfun Pro Mic
 
 A recent addition, and even smaller MCU board that can also be used, is the **DFRobot Beetle** https://www.dfrobot.com/wiki/index.php/Beetle_SKU:DFR0282. You can use Beetle.ino for the Arduino sketch.
 
-<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Beetle0.jpg" width="900" height="360" />
+<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Beetle0.jpg" width="900" height="355" />
 
 <img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Beetle2.jpg" width="824" height="446" />
 
