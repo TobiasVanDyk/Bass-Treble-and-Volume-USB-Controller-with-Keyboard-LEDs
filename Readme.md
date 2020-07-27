@@ -1,6 +1,6 @@
 # Bass, Treble, and Volume USB Controller with Keyboard LED
 
-<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/photo6.jpg" width="550" height="335" />
+<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/photo6.jpg" width="450" />
 
 For more details please see the [**Instructables project**](https://www.instructables.com/id/Bass-Treble-and-Volume-USB-Controller-With-Keyboar/)
 
@@ -23,7 +23,7 @@ Details are given in the photos, schematic and the Fritzing stripboard layouts. 
 
 <img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Final1.png" width="682" height="471" />
 
-<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Photo1.jpg" width="793" height="676" />
+<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Photo1.jpg" width="600" />
 
 ### Software
 As mentioned this USB Volume, Bass, and Treble Control use a rotary encoder as the volume control with a mute/unmute switch, and the Bass and Treble controlled by four Up and Down buttons. It also has PC Keyboard LED indicators namely Caps-lock, Scroll-lock, and Num-lock. It uses an Arduino Micro (or other ATmega32u4-based) MCU and the code is based on the transition states ISR roto_sm.ino by boolrules at the Arduino forum, which gives clearly differentiated up and down triggers. The code is also based on pleriche's USB Volume Control and Caps Lock LED instructable. It requires the Nico Hood HID-Project library at github: download the library as a zip file and extract it, then copy the folder to your Arduino library folder underneath your documents folder. Because the Micro can be easily reprogrammed via its USB port, you can adapt the code to suit the characteristics of your own sound device and keyboard by substituting the media instruction used in the code with your own selection. There is a vast list of all the functions that you can use available at the Nico Hood HID Github website - examine the file named ConsumerAPI.h for all the other HID functions which can include system functions such as sleep or reboot key etc. I have included photos of the construction as it progressed. Source code is in Final.ino.
