@@ -1,6 +1,6 @@
 # Bass, Treble, and Volume USB Controller with Keyboard LED
 
-<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/photo6.jpg" width="450" />
+<img src="images/https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/photo6.jpg" width="450" />
 
 For more details please see the [**Instructables project**](https://www.instructables.com/id/Bass-Treble-and-Volume-USB-Controller-With-Keyboar/)
 
@@ -19,11 +19,11 @@ I have a Creative SoundBlaster Audigy in my main desktop computer and I needed a
 
 Details are given in the photos, schematic and the Fritzing stripboard layouts. I used two smaller strip boards - one to house 4 LEDs and the four switches, and the other for a blue volume level direction indicator LED, and a larger stripboard for the micro and the rotary encoder. They are connected with a 9-way ribbon cable.
 
-<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/FinalSch.png" width="712" height="456" />
+<img src="images/https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/FinalSch.png" width="712" height="456" />
 
-<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Final1.png" width="682" height="471" />
+<img src="images/https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Final1.png" width="682" height="471" />
 
-<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Photo1.jpg" width="600" />
+<img src="images/https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Photo1.jpg" width="600" />
 
 ### Software
 As mentioned this USB Volume, Bass, and Treble Control use a rotary encoder as the volume control with a mute/unmute switch, and the Bass and Treble controlled by four Up and Down buttons. It also has PC Keyboard LED indicators namely Caps-lock, Scroll-lock, and Num-lock. It uses an Arduino Micro (or other ATmega32u4-based) MCU and the code is based on the transition states ISR roto_sm.ino by boolrules at the Arduino forum, which gives clearly differentiated up and down triggers. The code is also based on pleriche's USB Volume Control and Caps Lock LED instructable. It requires the Nico Hood HID-Project library at github: download the library as a zip file and extract it, then copy the folder to your Arduino library folder underneath your documents folder. Because the Micro can be easily reprogrammed via its USB port, you can adapt the code to suit the characteristics of your own sound device and keyboard by substituting the media instruction used in the code with your own selection. There is a vast list of all the functions that you can use available at the Nico Hood HID Github website - examine the file named ConsumerAPI.h for all the other HID functions which can include system functions such as sleep or reboot key etc. I have included photos of the construction as it progressed. Source code is in Final.ino.
@@ -32,24 +32,24 @@ As mentioned this USB Volume, Bass, and Treble Control use a rotary encoder as t
 
 It is possible to replace the four pushbuttons that control the bass and treble with two rotary controls. Schematic2 gives the details and the source code is in Sketch2.ino. The two pushbuttons on each control are used to give a bass boost and treble boost respectively.
 
-<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Schematic2.png" width="687" height="462" />
+<img src="images/https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/Schematic2.png" width="687" height="462" />
 
 ### Use a Sparkfun Pro Micro and DFRobot Beetle for a Smaller Case
 
 You can use the smaller version of the Arduino Micro namely the Sparkfun Pro Micro to make a smaller enclosure for the Bass Treble Volume and Keyboard LED USB Controller. Photo5 and Photo6 gives the details of the build and you can use Sketch3.ino for the Pro Micro.
 
-<img src="https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/photo5.jpg" width="636" height="525" />
+<img src="images/https://github.com/TobiasVanDyk/Bass-Treble-and-Volume-USB-Controller-with-Keyboard-LEDs/blob/master/photo5.jpg" width="636" height="525" />
 
 A recent addition, and even smaller MCU board that can also be used, is the **DFRobot Beetle** https://www.dfrobot.com/wiki/index.php/Beetle_SKU:DFR0282. You can use Beetle.ino for the Arduino sketch.
 
 <p align="left">
-<img src="Beetle0.jpg" width="400" />  
-<img src="Beetle2.jpg" width="400" />  
+<img src="images/Beetle0.jpg" width="400" />  
+<img src="images/Beetle2.jpg" width="400" />  
 </p>
 
 <p align="left">
-<img src="Beetle3.jpg" width="400" />  
-<img src="Beetle4.jpg" width="400" />  
+<img src="images/Beetle3.jpg" width="400" />  
+<img src="images/Beetle4.jpg" width="400" />  
 </p>
 
 ### Other Links
